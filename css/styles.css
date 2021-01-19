@@ -35,13 +35,13 @@ body {
   background-color: var(--white-bg-color);
 }
 
-.header {
-  display: flex;
-  align-items: center;
-}
-
-.navigation {
-  display: flex;
+.header-container {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
 }
 
 /* основное лого */
