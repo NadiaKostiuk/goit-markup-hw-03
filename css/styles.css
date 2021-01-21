@@ -40,6 +40,11 @@ body {
 *::after {
   box-sizing: inherit;
 }
+.header {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
 
 .header-container {
   width: 1200;
