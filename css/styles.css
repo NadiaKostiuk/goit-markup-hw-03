@@ -57,6 +57,15 @@ body {
   border: 1px solid #eeeeee;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* outline: 3px solid tomato; */
+}
+
 .navigation-list-item {
   display: flex;
 }
