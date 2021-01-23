@@ -25,8 +25,6 @@ html {
   --our-team: #f5f4fa;
   --main-letter-spacing: 0.03em;
 }
-  background-color: var(--button-secondary-background);
-}
 
 :visited {
   color: inherit;
@@ -82,6 +80,7 @@ body {
 .navigation-list-item {
   display: flex;
 }
+
 /* основное лого */
 
 .logo-black {
@@ -100,10 +99,6 @@ body {
   color: #2196f3;
 }
 
-.main-hero {
-  background: #2f303a;
-}
-
 .navigation {
   padding: 0;
   margin: 0;
@@ -116,10 +111,12 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
+
 .navigation-list-link:hover,
 .navigation-list-link:focus {
   color: #2196f3;
 }
+
 .adress-mail-link {
   font-family: 'Roboto';
   font-style: normal;
@@ -128,6 +125,7 @@ body {
   line-height: 1.142;
   letter-spacing: 0.02em;
 }
+
 .adress-mail-link:hover,
 .adress-mail-link:focus {
   color: #2196f3;
@@ -149,6 +147,13 @@ body {
 
 /* Hero */
 
+.main-hero {
+  background: #2f303a;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .main-hero-modal-btn {
   font-weight: bold;
   font-size: 16px;
@@ -157,6 +162,7 @@ body {
   color: #ffffff;
   background: #2196f3;
 }
+
 .main-hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -165,6 +171,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 /* basic triks */
@@ -251,15 +260,28 @@ body {
   display: block;
 }
 
-.teamwork-list {
+/* Командная робота */
+
+.portfolio-navigation {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-link {
+  text-decoration: none;
+}
+
+/* Our team */
+
+.our-team-list {
   display: flex;
 }
 
-.teamwork-list .teamwork-list-item + .teamwork-list-item {
+.our-team .our-team-photo + .our-team-photo {
   margin-left: 30px;
 }
 
-.our-team .teamwork-list-item {
+.our-team .our-team-photo {
   background-color: var(--white-bg-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -267,17 +289,13 @@ body {
 }
 
 .our-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
-.our-team {
   margin-top: 0px;
   margin-bottom: 10px;
   text-align: center;
-    background-color: var(--our-team);
-}
+  background-color: var(--our-team);
 
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-link {
@@ -289,6 +307,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.192;
+  text-align: center;
 }
 
 .our-team-title {
@@ -308,6 +327,8 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .our-team-text {
@@ -318,6 +339,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
+
   margin-top: 0px;
   margin-bottom: 30px;
 }
@@ -330,6 +352,8 @@ body {
 .our-team {
   background: #f5f4fa;
 }
+
+/**/
 
 .nav-title {
   font-weight: 500;
