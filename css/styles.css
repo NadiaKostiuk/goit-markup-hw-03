@@ -416,6 +416,12 @@ margin-bottom: 30px;}*/
 
 /* футер лого */
 
+.footer {
+  background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .footer-logo-text {
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
@@ -428,10 +434,6 @@ margin-bottom: 30px;}*/
 
 .footer-logo-white {
   color: #ffffff;
-}
-
-.footer {
-  background: #2f303a;
 }
 
 .footer-map {
