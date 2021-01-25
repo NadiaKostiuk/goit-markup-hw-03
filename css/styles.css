@@ -333,6 +333,10 @@ body {
 
 /* Teamwork - Командная робота */
 
+ul.teamwork-list {
+  margin: -15px;
+  padding: 0px;
+}
 .teamwork-list {
   display: flex;
   flex-wrap: wrap;
