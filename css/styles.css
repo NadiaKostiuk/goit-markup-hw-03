@@ -51,6 +51,10 @@ body {
 }
 
 .header {
+  display: block;
+}
+
+.header {
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -337,6 +341,7 @@ ul.teamwork-list {
   margin: -15px;
   padding: 0px;
 }
+
 .teamwork-list {
   display: flex;
   flex-wrap: wrap;
