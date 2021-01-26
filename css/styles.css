@@ -69,13 +69,13 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.header-container {
   width: 1170;
   padding-left: 15;
   padding-right: 15;
   margin: auto;
+}
+
+.header-container {
 }
 
 .container {
@@ -143,6 +143,10 @@ body {
   align-items: center;
   list-style: none;
   margin-left: auto;
+}
+
+.adress .adress-mail-link + .adress-phone-link {
+  margin-left: 50px;
 }
 
 .adress-mail-link,
