@@ -43,6 +43,10 @@ link {
   cursor: pointer;
 }
 
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   letter-spacing: var(--main-letter-spacing);
@@ -193,6 +197,11 @@ body {
   letter-spacing: 0.06em;
   color: #ffffff;
   background: #2196f3;
+
+  padding: 10px 32px;
+  text-align: center;
+  margin: 0 auto;
+  white-space: nowrap;
 }
 
 .main-hero-title {
