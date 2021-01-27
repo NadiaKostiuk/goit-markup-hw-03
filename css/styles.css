@@ -372,6 +372,7 @@ address {
 
 .portfolio-link {
   text-decoration: none;
+  cursor: pointer;
 }
 
 /* Teamwork - Командная робота */
@@ -390,6 +391,7 @@ ul.teamwork-list {
 .container-portfolio {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-style: none solid solid;
 }
 
 .teamwork-list-item {
@@ -397,7 +399,6 @@ ul.teamwork-list {
   margin: 15px;
 
   background-color: var(--white-bg-color);
-  outline: 1px solid var(--frame-portfolio-photo);
 }
 
 .teamwork-list-item:nth-last-child(-n + 3) {
