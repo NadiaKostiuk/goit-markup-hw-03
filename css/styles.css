@@ -110,9 +110,17 @@ body {
   margin: 0;
 }
 
+.navigation-list {
+  padding: 0;
+}
+
 .navigation-list-item {
   display: flex;
   margin-right: 93px;
+}
+
+.navigation-lis-item:last-child {
+  margin-right: 0;
 }
 
 .navigation-list-item:not(:last-child) {
