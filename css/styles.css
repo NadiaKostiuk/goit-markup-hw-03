@@ -154,6 +154,15 @@ body {
   margin-left: auto;
 }
 
+address {
+  display: flex;
+  font-style: normal;
+}
+
+.adress-mail-link {
+  margin-right: 50px;
+}
+
 .adress .adress-mail-link + .adress-phone-link {
   margin-left: 50px;
 }
