@@ -36,6 +36,26 @@ html {
 :visited {
   color: inherit;
 }
+/* COMMON */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
 
 li {
   list-style: none;
@@ -45,10 +65,7 @@ a {
   text-decoration: none;
 }
 
-link {
-  cursor: pointer;
-}
-
+link,
 button {
   cursor: pointer;
 }
@@ -70,7 +87,7 @@ body {
   border-bottom-color: #ececec;
 }
 
-.header-container,
+.container,
 .navigation-list {
   display: flex;
   align-items: center;
@@ -542,7 +559,7 @@ ul.teamwork-list {
 
 .footer .footer-list {
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 9px;
 }
 
 .footer-map {
@@ -553,10 +570,6 @@ ul.teamwork-list {
   color: #ffffff;
 }
 
-.footer {
-  display: flex;
-  flex-direction: column;
-}
 .footer-mail {
   font-size: 14px;
   line-height: 1.714;
