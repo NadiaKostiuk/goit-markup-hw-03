@@ -77,6 +77,10 @@ body {
   background-color: var(--white-bg-color);
 }
 
+section {
+  display: block;
+}
+
 .header {
   display: block;
 }
@@ -87,7 +91,6 @@ body {
   border-bottom-color: #ececec;
 }
 
-.container,
 .navigation-list {
   display: flex;
   align-items: center;
@@ -315,7 +318,6 @@ address {
 
 .what-we-do-list {
   display: flex;
-  justify-content: space-between;
 }
 
 .what-we-do-img {
@@ -333,6 +335,7 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-bottom: 50px;
 }
 
 /* Navigation - кнопки меню в портфолио */
