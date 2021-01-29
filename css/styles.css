@@ -536,6 +536,8 @@ ul.teamwork-list {
 
 .footer {
   background: #2f303a;
+}
+.footer .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -550,8 +552,6 @@ ul.teamwork-list {
   color: #2196f3;
 
   margin-bottom: 20px;
-  margin-right: 0;
-  padding: 0;
   display: inline-block;
 }
 
@@ -560,7 +560,6 @@ ul.teamwork-list {
 }
 
 .footer .footer-list {
-  margin-top: 0;
   margin-bottom: 9px;
 }
 
@@ -612,4 +611,7 @@ ul.teamwork-list {
 .footer-phone:hover,
 .footer-phone:focus {
   color: #2196f3;
+}
+.footer-list-item:not(:last-child) {
+  margin-bottom: 9px;
 }
