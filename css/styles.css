@@ -220,6 +220,7 @@ address {
   letter-spacing: 0.02em;
   color: #757575;
 }
+
 .adress-phone-link:hover,
 .adress-phone-link:focus {
   color: #2196f3;
@@ -550,6 +551,7 @@ ul.teamwork-list {
   margin-bottom: 20px;
   margin-right: 0;
   padding: 0;
+  display: inline-block;
 }
 
 .footer-logo-white {
