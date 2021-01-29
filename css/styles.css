@@ -81,8 +81,9 @@ section {
   display: block;
 }
 
-.header {
-  display: block;
+.header .container {
+  display: flex;
+  align-items: center;
 }
 
 .header {
