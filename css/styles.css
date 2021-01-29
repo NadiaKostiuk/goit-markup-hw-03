@@ -180,6 +180,7 @@ section {
 address {
   display: flex;
   font-style: normal;
+  margin-left: auto;
 }
 
 .adress-mail-link {
