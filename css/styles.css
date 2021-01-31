@@ -540,7 +540,7 @@ ul.teamwork-list {
 .footer {
   background: #2f303a;
 }
-.footer .container {
+.footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -560,10 +560,6 @@ ul.teamwork-list {
 
 .footer-logo-white {
   color: #ffffff;
-}
-
-.footer {
-  margin-bottom: 9px;
 }
 
 .footer-list {
